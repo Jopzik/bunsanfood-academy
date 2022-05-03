@@ -1,0 +1,27 @@
+:root {
+  /* Verdes */
+  --green-100          : #CFEFE5;
+  --green-200          : #9FDFCB;
+  --green-300          : #6ECEB0;
+  --green-400          : #3EBE96;
+  --green-500          : #0EAE7C;
+  --green-600          : #0B8B63;
+  --green-700          : #08684A;
+  --green-800          : #064632;
+  --green-900          : #01110C;
+  --main-color         : var(--green-500, #0EAE7C);
+
+  /* Texto */
+  --title-color        : #343A3F;
+  --text-color         : #697077;
+  --text-light-color   : #878D96;
+  --text-lighter-color : #A2A9B0;
+
+  /* Grises */
+  --border-color       : #C1C7CD;
+  --bg                 : #FBFBFE;
+  --bg-alt             : #DDE1E6;
+
+  --white-color        : #FFFFFF;
+  --black-color        : #000000;
+}

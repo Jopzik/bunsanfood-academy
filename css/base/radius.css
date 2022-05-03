@@ -1,0 +1,6 @@
+:root {
+  --normal-radius : 8px;
+  --big-radius    : 16px;
+  --bigger-radius : 32px;
+  --circle-radius : 50%;
+}
