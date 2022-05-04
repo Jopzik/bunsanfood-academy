@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Poppins:wght@600&display=swap');
 
 :root {
-  --body-font         : 'Manrope', sans-serif;
+  --text-font         : 'Manrope', sans-serif;
   --title-font        : 'Poppins', sans-serif;
 
   /* line-height */
@@ -12,7 +12,49 @@
   --bigger-title-size : 40px;
   --big-title-size    : 32px;
   --normal-title-size : 24px;
-  --small-title       : 20px;
+  --small-title-size  : 20px;
   --normal-text-size  : 16px;
   --small-text-size   : 14px;
+}
+
+body {
+  font-family : var(--text-font);
+  line-height : var(--text-line-height);
+  font-size   : var(--normal-text-size);
+  color       : var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.bigger-title,
+.big-title,
+.normal-title,
+.small-title {
+  font-family : var(--title-font);
+  line-height : var(--title-line-height);
+  color       : var(--title-color);
+}
+
+h1,
+.bigger-title {
+  font-size : var(--bigger-title-size);
+}
+
+h2,
+.big-title {
+  font-size : var(--big-title-size);
+}
+
+h3,
+.normal-title {
+  font-size : var(--normal-title-size);
+}
+
+h4,
+.small-title {
+  font-size : var(--small-title-size);
 }
