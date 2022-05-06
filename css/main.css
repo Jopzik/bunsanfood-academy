@@ -6,6 +6,8 @@
 
 /* ----- Components ----- */
 @import './components/button.css';
+@import './components/container.css';
+@import './components/overlay-card.css';
 
 /* ----- Pages ----- */
 @import './pages/login.css';
