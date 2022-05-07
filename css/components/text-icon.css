@@ -1,0 +1,16 @@
+.text-icon {
+  display     : flex;
+  gap         : 8px;
+  align-items : center;
+}
+
+/* ícono */
+.text-icon .fi {
+  display   : flex;
+  color     : var(--main-color);
+  font-size : 20px;
+}
+
+.text-icon .text {
+  font-weight : 600;
+}

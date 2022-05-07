@@ -1,3 +1,16 @@
+:root {
+  --l-block   : 24px;
+  --l-section : 32px;
+}
+
+.l-block {
+  margin-bottom : var(--l-block);
+}
+
+.l-section {
+  margin-bottom : var(--l-section);
+}
+
 *,
 *::before,
 *::after {

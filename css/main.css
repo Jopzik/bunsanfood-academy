@@ -1,3 +1,4 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css');
 /* ----- Base ----- */
 @import './base/reset.css';
 @import './base/color.css';
@@ -8,6 +9,12 @@
 @import './components/button.css';
 @import './components/container.css';
 @import './components/overlay-card.css';
+@import './components/restaurant-item.css';
+@import './components/text-icon.css';
 
 /* ----- Pages ----- */
 @import './pages/login.css';
+
+.featured-restaurants .normal-title {
+  margin-bottom : 16px;
+}
